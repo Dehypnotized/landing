@@ -39,7 +39,7 @@ class BaseFormWidget extends StatelessWidget {
                       labelText: 'Email',
                     )),
                 24.0.heightBox,
-                SizedBox(width: double.infinity, child: ElevatedButton(onPressed: () {}, child: const Text('Send')))
+                ElevatedButton(onPressed: () {}, child: const SizedBox(width: double.infinity, child: Text('Send')))
               ]))),
     );
   }

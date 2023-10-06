@@ -300,6 +300,7 @@ class _TeamMember extends StatelessWidget {
                   shape: BoxShape.circle,
                   border: Border.all(color: Colors.black, strokeAlign: BorderSide.strokeAlignOutside)),
               child: CircleAvatar(
+                minRadius: 40,
                 backgroundImage: Image.network(photo).image,
               )),
           10.heightBox,
